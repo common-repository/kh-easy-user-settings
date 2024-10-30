@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.kh_option{
+	display:flex;
+}
+.kh_admin_left,.kh_admin_right {
+    width: 50%;
+	
+    overflow-wrap: break-word;
+
+}
+
+
+.recommends {
+    padding: 14px;
+    background-color: #c0e5ff;
+    border-radius: 10px;
+}
+
+.recommends .kh_news{
+    background-color: #88c2ea;
+    padding: 1px 10px 15px;
+    border-radius: 10px;
+	margin-bottom:10px;
+}
+.recommends .kh_news a{
+	background-color: #3f7eae;
+    padding: 7px 12px;
+    border-radius: 7px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+
+div#status_update {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
